@@ -5,9 +5,11 @@ const ImdbDataHelper = require('./imdb_data_helper');
 
 var skillService = new Alexa.app("movie-ratings");
 const imdbHelper = new ImdbDataHelper();
-imdbHelper.getMovieByName('Boardwalk Empire').then(function(movie) {
-        console.log(imdbHelper.formatMovie(movie));
- });
+imdbHelper.getMovieByName('The Silence of the Lambs').then(function(movie) {
+        console.log(movie);
+ }).catch(function (err) {
+  console.log('handled the error', err);
+});;
 
 skillService.launch(function(request, response) {
   var prompt = 'Willkommen bei Movie Ratings.' +

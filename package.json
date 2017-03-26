@@ -18,7 +18,9 @@
     "alexa-sdk": "^1.0.6",
     "imdb-api": "^2.2.1",
     "alexa-app": "^4.0.0",
-    "lodash": "^4.3.0"
+    "lodash": "^4.3.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   },
   "devDependencies": {
   }

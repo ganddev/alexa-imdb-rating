@@ -1,0 +1,25 @@
+{
+  "name": "movierates",
+  "version": "0.0.1",
+  "description": "Returns information from imdb to a given movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "imdb",
+    "movie"
+  ],
+  "author": "Björn Ahlfeld",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "imdb-api": "^2.2.1",
+    "alexa-app": "^4.0.0",
+    "lodash": "^4.3.0"
+  },
+  "devDependencies": {
+  }
+}
